@@ -13,6 +13,8 @@ namespace TrainingPrograming.Session2
         int age = 39;
         string gender = "Female";
 
+
+
         public int AgeIn20Years
         {
             get
@@ -22,17 +24,21 @@ namespace TrainingPrograming.Session2
         }
 
         [Test]
-        public void practiceTest()
+        public void PracticeTest()
         {
-            Console.WriteLine("Hello, " + "\n" + "Please input your First Name: " + "\n" + firstName);
+            Console.WriteLine("Hello,");
+            Console.WriteLine($"Please input your First Name: \n{firstName}");
             Console.WriteLine();
-            Console.WriteLine("Please input your Last name: " + "\n" + lastName);
+            Console.WriteLine($"Please input your Last Name: \n{lastName}");
             Console.WriteLine();
-            Console.WriteLine("Please input your age: " + "\n" + age);
+            Console.WriteLine($"Please input your Age: \n{age}");
             Console.WriteLine();
-            Console.WriteLine("Please input your gender: " + "\n" + gender);
+            Console.WriteLine($"Please input your Gender: \n{gender}");
+            Console.WriteLine();
+            Console.WriteLine($"Your age in 20 years will be: {AgeIn20Years}");
         }
-        
     }
+
 }
+
        
