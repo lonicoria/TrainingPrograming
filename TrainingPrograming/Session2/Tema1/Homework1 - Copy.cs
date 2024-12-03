@@ -6,13 +6,17 @@ using System.Threading.Tasks;
 
 namespace TrainingPrograming.Session2
 {
-     public class Homework1
+    public class Homework1
     {
-     string firstName = "Lorena";
-     string lastName= "Nicoria";
-     int CurrentAge = 39;
-     int ageIn20Years = CurrentAge + 20;
-     string gender= "feminin";
+        string firstName = "Lorena";
+        string lastName = "Nicoria";
+        int age = 39;
+        string gender = "Female";
+
+        public int AgeIn20Years
+        {
+            get { return age + 20; }
+        }
 
         [Test]
         public void practiceTest()
@@ -25,39 +29,7 @@ namespace TrainingPrograming.Session2
             Console.WriteLine();
             Console.WriteLine("Please input your gender: " + "\n" + gender);
         }
-
-    public class Homework
-    {
-        [SetUp]
-        public void Setup()
-        {
-        }
-
-        [Test]
-        public void Test1()
-        {
-            Person person = new()
-            {
-                FirstName = "Jane",
-                LastName = "Doe",
-                Age = 39,
-                Gender = "Female"
-            };
-
-            Console.WriteLine("\nYour details are as follows:");
-            Console.WriteLine("\t- First Name: " + person.FirstName);
-            Console.WriteLine("\t- Last Name: " + person.LastName);
-            Console.WriteLine("\t- Gender: " + person.Gender);
-            Console.WriteLine("\t- Age: " + person.Age);
-
-            var ageIn20Years = CalculateAgeIn20Years(person.Age);
-
-            Console.WriteLine("\nYou will be " + ageIn20Years + " years old in 20 years!");
-        }
-
-        public static int CalculateAgeIn20Years(int currentAge)
-        {
-            return currentAge + 20;
-        }
+        
     }
 }
+       
