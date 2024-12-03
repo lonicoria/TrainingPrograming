@@ -14,16 +14,17 @@ namespace TrainingPrograming.Session2
      int ageIn20Years = CurrentAge + 20;
      string gender= "feminin";
 
-     [Test]
-    public void practiceTest()
-     {
-       Console.WriteLine("Hello, " + "\n" + "Please input your First Name: " + "\n" + firstName);
-       Console.WriteLine();
-      Console.WriteLine("Please input your Last name: " + "\n" + lastName);
-      Console.WriteLine();
-      Console.WriteLine("Please input your age: " + "\n" + age);
-     Console.WriteLine();
-     Console.WriteLine("Please input your gender: " + "\n" + gender);
+        [Test]
+        public void practiceTest()
+        {
+            Console.WriteLine("Hello, " + "\n" + "Please input your First Name: " + "\n" + firstName);
+            Console.WriteLine();
+            Console.WriteLine("Please input your Last name: " + "\n" + lastName);
+            Console.WriteLine();
+            Console.WriteLine("Please input your age: " + "\n" + age);
+            Console.WriteLine();
+            Console.WriteLine("Please input your gender: " + "\n" + gender);
+        }
 
     public class Homework
     {
