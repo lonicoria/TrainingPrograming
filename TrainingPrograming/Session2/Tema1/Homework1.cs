@@ -38,7 +38,16 @@ namespace TrainingPrograming.Session2
             Console.WriteLine($"Your age in 20 years will be: {AgeIn20Years}");
         }
     }
-
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Homework1 homework = new Homework1();
+            homework.PracticeTest();
+        }
+    }
 }
+
+
 
        
