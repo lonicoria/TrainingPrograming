@@ -1,4 +1,4 @@
-﻿namespace TrainingPrograming.Session2.Tema1
+﻿namespace TrainingPrograming.Homework1.Tema1
 {
     internal class Person
     {

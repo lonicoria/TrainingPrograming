@@ -33,9 +33,10 @@ namespace TrainingPrograming.Session2
 
                 Console.Write("Nume cursant: " + numeCursant + " " + prenumeCursant + "\n");
                 // Console.WriteLine("Prenumele: " + prenumeCursant);
-                Console.Write("Varsta: " + varsta);
+                Console.WriteLine("Varsta: " + varsta + " " );
+
                 Console.WriteLine("CNP: " + cnp);
-                Console.WriteLine("Activ: " + esteActiv + " ");
+                Console.WriteLine("Activ: " + esteActiv + "\n");
                 Console.WriteLine("Nota: " + nota);
 
             }

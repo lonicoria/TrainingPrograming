@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TrainingPrograming.Session2.Tema1
+namespace TrainingPrograming.Homework1.Tema1
 {
 
     public class Homework
@@ -15,7 +15,7 @@ namespace TrainingPrograming.Session2.Tema1
         }
 
         [Test]
-        public void Test1()
+        public void Test()
         {
             Person person = new()
             {

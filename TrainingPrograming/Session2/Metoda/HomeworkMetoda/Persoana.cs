@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using TrainingPrograming.Session2.Tema1;
+using TrainingPrograming.Session2;
 
 namespace TrainingPrograming.Session2.Metoda.HomeworkMetoda
 {
